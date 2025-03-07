@@ -1,0 +1,10 @@
+FileVersion = 1
+
+[Project]
+Name = "flex-beef"
+TargetType = "BeefLib"
+StartupObject = "flex_beef.Program"
+
+[Configs.Debug.Win64]
+BeefLibType = "Static"
+LibPaths = ["$(ProjectDir)/libs/flex.lib"]
