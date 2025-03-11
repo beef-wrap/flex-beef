@@ -5,7 +5,7 @@
 using System;
 using System.Interop;
 
-namespace flexBeef;
+namespace flex;
 
 public static class flex
 {

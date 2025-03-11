@@ -1,6 +1,6 @@
 using System;
 using System.Diagnostics;
-using static flexBeef.flex;
+using static flex.flex;
 
 namespace example;
 
