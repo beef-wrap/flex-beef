@@ -6,4 +6,8 @@ DefaultNamespace = "flex"
 
 [Configs.Debug.Win64]
 BeefLibType = "Static"
-LibPaths = ["$(ProjectDir)/libs/flex.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\flexd.lib"]
+
+[Configs.Debug.Win64]
+BeefLibType = "Static"
+LibPaths = ["$(ProjectDir)\\libs\\windows\\flex.lib"]

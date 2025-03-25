@@ -9,9 +9,9 @@ namespace flex;
 
 public static class flex
 {
-	public struct flex_item { };
+	public struct flex_item { }
 
-	public enum flex_align
+	public enum flex_align : c_int
 	{
 		FLEX_ALIGN_AUTO = 0,
 		FLEX_ALIGN_STRETCH,
@@ -23,13 +23,13 @@ public static class flex
 		FLEX_ALIGN_SPACE_EVENLY
 	}
 
-	public enum flex_position
+	public enum flex_position : c_int
 	{
 		FLEX_POSITION_RELATIVE = 0,
 		FLEX_POSITION_ABSOLUTE
 	}
 
-	public enum flex_direction
+	public enum flex_direction : c_int
 	{
 		FLEX_DIRECTION_ROW = 0,
 		FLEX_DIRECTION_ROW_REVERSE,
@@ -37,7 +37,7 @@ public static class flex
 		FLEX_DIRECTION_COLUMN_REVERSE
 	}
 
-	public enum flex_wrap
+	public enum flex_wrap : c_int
 	{
 		FLEX_WRAP_NO_WRAP = 0,
 		FLEX_WRAP_WRAP,
